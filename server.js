@@ -165,12 +165,12 @@ app.post('/api/postAgreement/:id', async function (req, res, next) {
         sendingAccount = req.body.mergeFieldInfo[i].defaultValue.toString();
         // set x-api-user to the email
         myHeaders['x-api-user'] = 'email:' + sendingAccount;
-        console.log('sending account dfound' + sendingAccount);
+
+        //var sender_str = '{"label":"ESports User","memberInfos":[ {"email": "' + sendingAccount + '"} ],"order":2,"role":"SENDER"}';
+
+        //req.body.participantSetsInfo.push(JSON.parse(sender_str));
       }
     }
-
-    console.log('headers = ' + JSON.stringify(myHeaders));
-    //console.log('auth = ' + JSON.stringify(myHeaders['Authorization']));
 
     return fetch(url + endpoint, {
       method: 'POST',
@@ -183,7 +183,7 @@ app.post('/api/postAgreement/:id', async function (req, res, next) {
   let okToSubmit = true;
 
   for (let o = 0; req.body.participantSetsInfo.length > o; o++) {
-    console.log(req.body.participantSetsInfo[o].memberInfos);
+    //console.log(req.body.participantSetsInfo[o].memberInfos);
     for (let i = 0; req.body.participantSetsInfo[o].memberInfos.length > i; i++) {
       if (!req.body.participantSetsInfo[o].memberInfos[i].email.match(emailRegex)) {
         okToSubmit = false;
