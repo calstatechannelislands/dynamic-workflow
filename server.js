@@ -155,9 +155,26 @@ app.post('/api/postAgreement/:id', async function (req, res, next) {
      * This function post agreements
      */
     const endpoint = '/agreements/';
+
+    var myHeaders = getHeader(req);
+
+    // find WFSetting_SendingAccount if exists
+    var sendingAccount = '';
+    for (let i = 0; req.body.mergeFieldInfo.length > i; i++) {
+      if (req.body.mergeFieldInfo[i].fieldName.toString() === 'WFSetting_SendingAccount') {
+        sendingAccount = req.body.mergeFieldInfo[i].defaultValue.toString();
+        // set x-api-user to the email
+        myHeaders['x-api-user'] = 'email:' + sendingAccount;
+        console.log('sending account dfound' + sendingAccount);
+      }
+    }
+
+    console.log('headers = ' + JSON.stringify(myHeaders));
+    //console.log('auth = ' + JSON.stringify(myHeaders['Authorization']));
+
     return fetch(url + endpoint, {
       method: 'POST',
-      headers: getHeader(req),
+      headers: myHeaders,
       body: JSON.stringify(req.body)
     });
   }
@@ -179,6 +196,7 @@ app.post('/api/postAgreement/:id', async function (req, res, next) {
   if (okToSubmit) {
     const api_response = await postAgreement();
     data = await api_response.json();
+    console.log('response ' + JSON.stringify(data));
   } else {
     data = { code: 'MISC_ERROR', message: emailErrorMessage };
   }

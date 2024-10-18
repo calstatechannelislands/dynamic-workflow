@@ -23,70 +23,75 @@ class MergeField{
     }
 
     createMergeFieldDiv(){
-        /***
-         * This function will add a merge field div
-         */
+      /***
+        * This function will add a merge field div
+        */
 
-        // Create main div
-        var merge_field_div = document.createElement('div');
-        merge_field_div.id = "merge_" + this.field_name;
-        merge_field_div.className = "merge_div row";
+      // Create main div
+      var merge_field_div = document.createElement('div');
+      merge_field_div.id = "merge_" + this.field_name;
+      merge_field_div.className = "merge_div row";
 
-        // Create grids
-        var merge_field_col_4 = document.createElement('div');
-        merge_field_col_4.className = "col-lg-4";
-        var merge_field_col_8 = document.createElement('div');
-        merge_field_col_8.className = "col-lg-8";
+      // hide div if it's a setting
+      if (this.default_value.toString().startsWith('WFSetting')) {
+        merge_field_div.hidden = true;
+      }
+        
+      // Create grids
+      var merge_field_col_4 = document.createElement('div');
+      merge_field_col_4.className = "col-lg-4";
+      var merge_field_col_8 = document.createElement('div');
+      merge_field_col_8.className = "col-lg-8";
 
-        var parent_div = document.getElementById('merge_body')
-        parent_div.append(merge_field_div);
+      var parent_div = document.getElementById('merge_body')
+      parent_div.append(merge_field_div);
 
-        // Append to parent
-        this.target_div = merge_field_div;
-        this.target_div.append(merge_field_col_4);
-        this.target_div.append(merge_field_col_8);
+      // Append to parent
+      this.target_div = merge_field_div;
+      this.target_div.append(merge_field_col_4);
+      this.target_div.append(merge_field_col_8);
     }
 
     createMergeFieldLabel(){
-        /***
-         * This function will add a field label
-         */
+      /***
+        * This function will add a field label
+        */
 
-        // Create element
-        var merge_field_label = document.createElement('h3');
+      // Create element
+      var merge_field_label = document.createElement('h3');
 		if(this.required){
 			merge_field_label.id = "required";
 		}
-        // Add attributes
-        merge_field_label.innerText = this.display_name;
+      // Add attributes
+      merge_field_label.innerText = this.display_name;
 
-        // Append to parent
-        this.target_div.children[0].append(merge_field_label);
-        // this.target_div.append(merge_field_label);
+      // Append to parent
+      this.target_div.children[0].append(merge_field_label);
+      // this.target_div.append(merge_field_label);
     }
 
     createMergeFieldInput(){
-        /***
-         * This function will add a field input
-         */
+      /***
+        * This function will add a field input
+        */
 
-        // Create element
-        var merge_field_input = document.createElement('input');
+      // Create element
+      var merge_field_input = document.createElement('input');
 
-        // Add attributes
-        merge_field_input.className = 'merge_input';
-        merge_field_input.id = 'merge_input_' + this.field_name;
+      // Add attributes
+      merge_field_input.className = 'merge_input';
+      merge_field_input.id = 'merge_input_' + this.field_name;
 
-        if(this.default_value !== ""){
-            merge_field_input.value = this.default_value;
-        }
+      if(this.default_value !== ""){
+          merge_field_input.value = this.default_value;
+      }
 
-        merge_field_input.onchange = function () {
-            this.default_value = merge_field_input.value;
-        }.bind(this);
+      merge_field_input.onchange = function () {
+          this.default_value = merge_field_input.value;
+      }.bind(this);
 
-        // Append to parents
-        this.target_div.children[1].append(merge_field_input);
+      // Append to parents
+      this.target_div.children[1].append(merge_field_input);
     }
 
 }

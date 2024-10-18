@@ -23,8 +23,8 @@
       "RelativeMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|solutionrelative:static\\js\\DynamicForm.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\config\\config.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:config\\config.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\config\\config.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|solutionrelative:config\\config.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +46,8 @@
               "RelativeToolTip": "config\\config.yaml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAD8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-10-18T16:07:09.691Z"
+              "WhenOpened": "2024-10-18T16:07:09.691Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -58,7 +59,8 @@
               "RelativeToolTip": "static\\js\\MergeField.js",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwCIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-18T05:09:32.14Z"
+              "WhenOpened": "2024-10-18T05:09:32.14Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -70,7 +72,8 @@
               "RelativeToolTip": "static\\views\\index.html",
               "ViewState": "AgIAAA0AAAAAAwAAAAAWwDwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-18T05:02:45.848Z"
+              "WhenOpened": "2024-10-18T05:02:45.848Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -82,7 +85,8 @@
               "RelativeToolTip": "static\\js\\app.js",
               "ViewState": "AgIAAHAAAAAAAAAAAEAhwDUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-18T05:04:58.589Z"
+              "WhenOpened": "2024-10-18T05:04:58.589Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -94,7 +98,8 @@
               "RelativeToolTip": "static\\js\\DynamicForm.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAKcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-18T04:59:39.108Z"
+              "WhenOpened": "2024-10-18T04:59:39.108Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

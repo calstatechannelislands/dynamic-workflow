@@ -136,7 +136,29 @@ class DynamicForm {
 
     // Get merged field information
     if ('mergeFieldsInfo' in this.data) {
-      document.getElementById('merge_section').hidden = false;
+
+      // Check to see if we have non-WFSetting variables
+      var shouldHide = '';
+      for (let counter = 0; counter < this.data['mergeFieldsInfo'].length; counter++) {
+        if (!this.data['mergeFieldsInfo'][counter]['fieldName'].toString().startsWith('WFSetting')) {
+          shouldHide = 'N';
+          break;
+        }
+        else {
+          shouldHide = 'Y';
+        }
+      }
+
+      if (shouldHide === 'Y') {
+        document.getElementById('merge_section').hidden = true;
+      }
+      else if (shouldHide = 'N') {
+        document.getElementById('merge_section').hidden = false;
+      }
+      else {
+        document.getElementById('merge_section').hidden = false;
+      }
+      
       for (let counter = 0; counter < this.data['mergeFieldsInfo'].length; counter++) {
         let merge_field_data = this.data['mergeFieldsInfo'][counter];
         this.merge_fields.push(new MergeField(this.parent_div.children[1], merge_field_data));
