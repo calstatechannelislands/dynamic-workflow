@@ -1,0 +1,3 @@
+C:\Users\pedro.rivas664\source\repos\calstatechannelislands\dynamic-workflow\obj\Debug\AdobePowerForms.njsproj.AssemblyReference.cache
+C:\Users\pedro.rivas664\source\repos\calstatechannelislands\dynamic-workflow\obj\Debug\AdobePowerForms.njsproj.CoreCompileInputs.cache
+C:\Users\pedro.rivas664\source\repos\calstatechannelislands\dynamic-workflow\bin\Microsoft.NodejsTools.WebRole.dll

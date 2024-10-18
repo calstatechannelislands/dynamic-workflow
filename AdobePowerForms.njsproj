@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <SchemaVersion>2.0</SchemaVersion>
+        <ProjectGuid>{2f85e937-265b-4472-9b1b-12297ee0c5bf}</ProjectGuid>
+        <ProjectHome>.</ProjectHome>
+        <ProjectView>ShowAllFiles</ProjectView>
+        <StartupFile>server.js</StartupFile>
+        <WorkingDirectory>.</WorkingDirectory>
+        <OutputPath>.</OutputPath>
+        <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+        <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">17.0</VisualStudioVersion>
+        <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+    <ItemGroup>
+        <Content Include=".eslintrc.json" />
+        <Content Include="package-lock.json" />
+        <Content Include="package.json" />
+        <Content Include="parliament.json" />
+        <Content Include="CODE_OF_CONDUCT.md" />
+        <Content Include="README.md" />
+        <Content Include="server.js" />
+        <Content Include="docs\integration_key.png" />
+        <Content Include="docs\sign_image.png" />
+        <Content Include="docs\configuration.md" />
+        <Content Include="docs\deploy.md" />
+        <Content Include="docs\main.md" />
+        <Content Include="docs\user_guide.md" />
+        <Content Include="static\router.html" />
+        <Content Include="static\selector.html" />
+        <Content Include="views\index.ejs" />
+        <Content Include="docs\images\DW Screen 1.png" />
+        <Content Include="docs\images\DW Screen 2 Disable Options.png" />
+        <Content Include="docs\images\DW Screen 3 Disable Index.png" />
+        <Content Include="docs\images\DW Screen 4 Prefill.png" />
+        <Content Include="docs\images\DW Screen 5 CSS.png" />
+        <Content Include="static\css\stylesheet.css" />
+        <Content Include="static\js\app.js" />
+        <Content Include="static\js\CarbonCopy.js" />
+        <Content Include="static\js\Deadline.js" />
+        <Content Include="static\js\DynamicForm.js" />
+        <Content Include="static\js\FileInfo.js" />
+        <Content Include="static\js\MergeField.js" />
+        <Content Include="static\js\PassOption.js" />
+        <Content Include="static\js\RecipientGroup.js" />
+        <Content Include="static\js\Reminder.js" />
+        <Content Include="static\js\Workflow.js" />
+        <Content Include="static\views\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="AdobePowerForms" />
+        <Folder Include="config" />
+        <Folder Include="docs" />
+        <Folder Include="docs\images" />
+        <Folder Include="static" />
+        <Folder Include="static\css" />
+        <Folder Include="static\js" />
+        <Folder Include="static\views" />
+        <Folder Include="views" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+    <ProjectExtensions>
+        <VisualStudio>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+            <WebProjectProperties>
+              <UseIIS>False</UseIIS>
+              <AutoAssignPort>True</AutoAssignPort>
+              <DevelopmentServerPort>0</DevelopmentServerPort>
+              <DevelopmentServerVPath>/</DevelopmentServerVPath>
+              <IISUrl>http://localhost:48022/</IISUrl>
+              <NTLMAuthentication>False</NTLMAuthentication>
+              <UseCustomServer>True</UseCustomServer>
+              <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+              <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+            </WebProjectProperties>
+          </FlavorProperties>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+            <WebProjectProperties>
+              <StartPageUrl>
+              </StartPageUrl>
+              <StartAction>CurrentPage</StartAction>
+              <AspNetDebugging>True</AspNetDebugging>
+              <SilverlightDebugging>False</SilverlightDebugging>
+              <NativeDebugging>False</NativeDebugging>
+              <SQLDebugging>False</SQLDebugging>
+              <ExternalProgram>
+              </ExternalProgram>
+              <StartExternalURL>
+              </StartExternalURL>
+              <StartCmdLineArguments>
+              </StartCmdLineArguments>
+              <StartWorkingDirectory>
+              </StartWorkingDirectory>
+              <EnableENC>False</EnableENC>
+              <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+            </WebProjectProperties>
+          </FlavorProperties>
+        </VisualStudio>
+    </ProjectExtensions>
+</Project>
