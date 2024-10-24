@@ -163,12 +163,9 @@ app.post('/api/postAgreement/:id', async function (req, res, next) {
     for (let i = 0; req.body.mergeFieldInfo.length > i; i++) {
       if (req.body.mergeFieldInfo[i].fieldName.toString() === 'WFSetting_SendingAccount') {
         sendingAccount = req.body.mergeFieldInfo[i].defaultValue.toString();
+
         // set x-api-user to the email
         myHeaders['x-api-user'] = 'email:' + sendingAccount;
-
-        //var sender_str = '{"label":"ESports User","memberInfos":[ {"email": "' + sendingAccount + '"} ],"order":2,"role":"SENDER"}';
-
-        //req.body.participantSetsInfo.push(JSON.parse(sender_str));
       }
     }
 
@@ -196,7 +193,6 @@ app.post('/api/postAgreement/:id', async function (req, res, next) {
   if (okToSubmit) {
     const api_response = await postAgreement();
     data = await api_response.json();
-    console.log('response ' + JSON.stringify(data));
   } else {
     data = { code: 'MISC_ERROR', message: emailErrorMessage };
   }
@@ -214,9 +210,16 @@ app.get('/api/getSigningUrls/:id', async function (req, res, next) {
      */
     const endpoint = '/agreements/' + req.params.id + '/signingUrls';
 
+
+    //console.log('wid: ' + req.params.wid);
+
+    var myHeaders = getHeader(req);
+
+    myHeaders['x-api-user'] = 'email:iam@csuci.edu';
+
     const sign_in_response = await fetch(url + endpoint, {
       method: 'GET',
-      headers: getHeader(req)
+      headers: myHeaders
     });
 
     const sign_in_data = await sign_in_response.json();
@@ -292,6 +295,10 @@ app.get('/testing/:area', function (req, res) {
 //    res.sendFile(__dirname + '/static/' + req.params.area + '.html');
 });
 
+app.get('/success/:prompt', function (req, res) {
+  console.log("Route matches '/success/:prompt' (" + req.params.prompt + ")");
+  res.render('success', { area: req.params.prompt });
+});
 
 app.disable('etag');
 app.set('view engine', 'ejs');

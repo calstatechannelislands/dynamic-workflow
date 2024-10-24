@@ -93,6 +93,15 @@ h4 {
   padding-right: 15px;
 }
 
+#workflow_submission {
+  width: 70vw;
+  background: #22c78c;
+  font-size: 20px;
+  box-shadow: 0 10px 20px 5px grey;
+  border-radius: 5px;
+  text-align: center;
+}
+
 #option_submit_button {
   font-size: 15px;
   padding: 0 14px;

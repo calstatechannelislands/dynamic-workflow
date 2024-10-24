@@ -510,10 +510,10 @@ class DynamicForm {
             window.location.reload();
           }
         } else { */
-		  alert('Agreement Sent');
+		  //alert('Agreement Sent');
           async_wf_obj.clearData();
-          //alert(response['message']);
-          window.location.reload();
+        //alert(response['message']);
+        window.location.href = '/success/prompt=true';
         //}
       }
     }.bind(this);

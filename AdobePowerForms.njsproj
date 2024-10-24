@@ -31,6 +31,7 @@
     <Content Include="docs\user_guide.md" />
     <Content Include="static\router.html" />
     <Content Include="static\selector.html" />
+    <Content Include="views\success.ejs" />
     <Content Include="views\index.ejs" />
     <Content Include="docs\images\DW Screen 1.png" />
     <Content Include="docs\images\DW Screen 2 Disable Options.png" />
@@ -58,6 +59,7 @@
     <Folder Include="static" />
     <Folder Include="static\css" />
     <Folder Include="static\js" />
+    <Folder Include="static\images\" />
     <Folder Include="static\views" />
     <Folder Include="views" />
   </ItemGroup>
