@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\static\\js\\DynamicForm.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|solutionrelative:static\\js\\DynamicForm.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\config\\config.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|solutionrelative:config\\config.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|solutionrelative:server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\static\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|solutionrelative:static\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\static\\views\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|solutionrelative:static\\views\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\views\\success.ejs||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|solutionrelative:views\\success.ejs||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\static\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|solutionrelative:static\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2F85E937-265B-4472-9B1B-12297EE0C5BF}|AdobePowerForms.njsproj|solutionrelative:server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,84 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "config.yaml",
-              "DocumentMoniker": "C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\config\\config.yaml",
-              "RelativeDocumentMoniker": "config\\config.yaml",
-              "ToolTip": "C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\config\\config.yaml",
-              "RelativeToolTip": "config\\config.yaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-10-24T02:39:05.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "app.js",
-              "DocumentMoniker": "C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\static\\js\\app.js",
-              "RelativeDocumentMoniker": "static\\js\\app.js",
-              "ToolTip": "C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\static\\js\\app.js",
-              "RelativeToolTip": "static\\js\\app.js",
-              "ViewState": "AgIAAPYAAAAAAAAAAAAgwEgAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-24T01:59:35.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "stylesheet.css",
-              "DocumentMoniker": "C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\static\\css\\stylesheet.css",
-              "RelativeDocumentMoniker": "static\\css\\stylesheet.css",
-              "ToolTip": "C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\static\\css\\stylesheet.css",
-              "RelativeToolTip": "static\\css\\stylesheet.css",
-              "ViewState": "AgIAADcAAAAAAAAAAAAkwGYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-24T01:47:18.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "success.ejs",
-              "DocumentMoniker": "C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\views\\success.ejs",
-              "RelativeDocumentMoniker": "views\\success.ejs",
-              "ToolTip": "C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\views\\success.ejs",
-              "RelativeToolTip": "views\\success.ejs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAABSAAAAAAAAAA==",
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-24T01:29:46.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\static\\views\\index.html",
-              "RelativeDocumentMoniker": "static\\views\\index.html",
-              "ToolTip": "C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\static\\views\\index.html",
-              "RelativeToolTip": "static\\views\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-18T05:02:45.848Z",
+              "WhenOpened": "2024-10-24T04:23:53.954Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DynamicForm.js",
-              "DocumentMoniker": "C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\static\\js\\DynamicForm.js",
-              "RelativeDocumentMoniker": "static\\js\\DynamicForm.js",
-              "ToolTip": "C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\static\\js\\DynamicForm.js",
-              "RelativeToolTip": "static\\js\\DynamicForm.js",
-              "ViewState": "AgIAANMBAAAAAAAAAAAawAMCAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-18T04:59:39.108Z",
+              "Title": "success.ejs",
+              "DocumentMoniker": "C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\views\\success.ejs",
+              "RelativeDocumentMoniker": "views\\success.ejs",
+              "ToolTip": "C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\views\\success.ejs",
+              "RelativeToolTip": "views\\success.ejs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-24T01:29:46.168Z",
               "EditorCaption": ""
             },
             {
@@ -126,7 +58,7 @@
               "RelativeDocumentMoniker": "server.js",
               "ToolTip": "C:\\Users\\pedro.rivas664\\source\\repos\\calstatechannelislands\\dynamic-workflow\\server.js",
               "RelativeToolTip": "server.js",
-              "ViewState": "AgIAAJ8AAADAzMzMzMwwwMUAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAJ8AAADAzMzMzMwwwK4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-10-18T04:57:01.275Z",
               "EditorCaption": ""
